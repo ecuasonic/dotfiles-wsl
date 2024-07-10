@@ -1,0 +1,54 @@
+# #---------------- COMMANDS --------------
+#
+# integrated() {
+#     display_ports=$(~/.config/custom_scripts/detect_monitor.sh)
+#
+#     if [ "$(supergfxctl -g)" = "Hybrid" ]; then
+#         supergfxctl -m Integrated
+#         echo "Switching to Integrated..."
+#         sleep 0.5
+#         i3-msg exit
+#     fi
+#
+#     if [ $display_ports = "eDP-2" ] || [ $display_ports = "eDP-1" ]; then
+#         xrandr -r 60
+#     fi
+# }
+#
+# hybrid() {
+#     if [ "$(supergfxctl -g)" = "Integrated" ]; then
+#         supergfxctl -m Hybrid
+#         echo "Switching to Hybrid..."
+#         sleep 0.5
+#         i3-msg exit
+#     fi
+# }
+
+cdls() {
+    cd $1
+    ls
+}
+
+clearls() {
+    clear
+    ls
+}
+
+# change monitors
+# s() {
+#     ~/.config/custom_scripts/switch_monitor.sh
+# }
+
+# # change alacritty font
+# f() {
+#     ~/.config/custom_scripts/change_alacritty_font.sh $1
+# }
+
+# # i3 resurrection
+# save() {
+#     ~/.config/custom_scripts/saveWindow.sh
+# }
+#
+# resurrect() {
+#     ~/.config/custom_scripts/restoreWindow.sh
+# }
