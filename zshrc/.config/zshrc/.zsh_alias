@@ -12,6 +12,7 @@ alias sz="source $HOME/.config/zshrc/.zshrc"
 alias ez="nvim $HOME/.config/zshrc/.zshrc"
 alias ea="nvim $HOME/.config/zshrc/.zsh_alias"
 alias ec="nvim $HOME/.config/zshrc/.zsh_commands"
+alias h="cd /mnt/c/users/ecuas/desktop/programming"
 
 # alias ei3="nvim $HOME/.config/i3/config"
 # alias ep="nvim $HOME/.config/picom.conf"
@@ -55,9 +56,9 @@ alias gr='git remote'
 alias gre='git reset'
 
 #-------------DIRS------------------
-alias ..="cd .."
-alias ...="cd ../.."
-alias ....="cd ../../.."
-alias .....="cd ../../../.."
-alias ......="cd ../../../../.."
+# alias ..="cd .."
+# alias ...="cd ../.."
+# alias ....="cd ../../.."
+# alias .....="cd ../../../.."
+# alias ......="cd ../../../../.."
 

@@ -204,7 +204,7 @@ export BAT_THEME="tokyonight_night"
 # ------------ Zoxide (better cd) -----------
 eval "$(zoxide init zsh)"
 
-alias cd="z"
+# alias cd="z"
 
 # cx() { cd "$@" && l; }
 # fcd() { cd "$(find . -type d -not -path '*/.*' | fzf)" && l; }

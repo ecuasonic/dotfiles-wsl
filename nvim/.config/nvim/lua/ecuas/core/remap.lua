@@ -8,6 +8,11 @@ local keymap = vim.keymap -- keymaps
 keymap.set("n", "<Tab>", "a<C-t><Esc>")
 keymap.set("n", "<S-Tab>", "a<C-d><Esc>")
 
+-- Save
+keymap.set("n", "<C-s>", ":w<CR>");
+keymap.set("i", "<C-s>", ":w<CR>");
+keymap.set("v", "<C-s>", ":w<CR>");
+
 -- Multi-line Indentation in Visual Mode
 keymap.set("v", "<Tab>", ">gv^")
 keymap.set("v", "<S-Tab>", "<gv^")
